@@ -14,5 +14,8 @@ import flet as ft
 def main(page: ft.Page):
     page.add(ft.SafeArea(ft.Text("Hello, Flet!")))
 
-
+# android
+# flet run --android
+# desktop
+# python main.py 
 ft.app(main)
